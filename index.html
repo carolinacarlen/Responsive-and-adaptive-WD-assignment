@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" type="text/CSS" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <title>Responsive designs</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="images/Logo.png" alt="logo-Head" />
+        <ul class="nav__links">
+          <li><a href="#">Works</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-container">
+      <div class="headline"><h1 class="headline">Patagonia</h1></div>
+      <div class="main-info">
+        <h3>
+          Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec
+          viverra eleifend lacus, vitae ullamcor.
+        </h3>
+      </div>
+      <section class="image">
+        <picture>
+          <source srcset="img_horses-256w.jpg" media="(max-width:768px)" />
+          <source srcset="img_horses-617w.jpg" media="(max-width:1439px)" />
+          <source srcset="img_horses-864w.jpg" media="(min-width:1440px" />
+          <img
+            src="img_horses-864w.jpg"
+            style="width: auto"
+            alt="Horses in Patagonia"
+          />
+        </picture>
+      </section>
+    </div>
+  </body>
+</html>
